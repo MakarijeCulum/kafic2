@@ -92,7 +92,6 @@ h2 {
     border-radius: 5px;
     transition: background 0.3s;
 }
-
 .btn-back:hover {
     background: #8d4c15;
 }
@@ -105,8 +104,9 @@ footer {
     opacity: 0.8;
 }
 @media (max-width: 768px) {
-    .menu-list {
-        grid-template-columns: 1fr;
+    .btn-back {
+        padding: 8px 15px; 
+        font-size: 1rem; 
     }
 }
 
